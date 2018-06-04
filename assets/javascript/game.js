@@ -8,7 +8,7 @@ let currentTotal = 0;
 
 let goal =  Math.floor(Math.random() * 101 + 19)
     console.log("Current Goal: " + goal);
-    $("#goal").text("Current Goal: " + goal);
+    $("#goal").text("Target Score: " + goal);
 
 $("#userTotal").text("Current Total: " + currentTotal);
 
